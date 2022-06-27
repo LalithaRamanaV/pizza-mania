@@ -4,12 +4,10 @@ import PizzaCard from "./PizzaCard"
 const PizzaList = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>THE BEST PIZZA IN TOWN</h1>
+      <h1 className={styles.title}>The BEST PIZZA in City!!</h1>
       <p className={styles.desc}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu
-        in pretium molestie. Interdum et malesuada fames acme. Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit.
-      </p>
+      We deliver fresh pizza with various varities according to the customers taste and choice and also which is devlivered within half an hour.
+    </p>
       <div className={styles.wrapper}>
           <PizzaCard/>
           <PizzaCard/>
