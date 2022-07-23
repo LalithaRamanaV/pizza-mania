@@ -7,7 +7,7 @@ const Product = () => {
   const pizza = {
     id: 1,
     img: "/img/pizza0.png",
-    price: [499,599,799],
+    price: [25,75,100],
     name: "Fresh Pan Pizza",
     desc: "Fresh pizza which is made delicious with extra toppings.",
   };
@@ -20,7 +20,7 @@ const Product = () => {
       </div>
       <div className={styles.right}>
         <h1 className={styles.title}>{pizza.name}</h1>
-        <span className={styles.price}>Rs {pizza.price[size]}</span>
+        <span className={styles.price}>$ {pizza.price[size]}</span>
         <p className={styles.desc}>{pizza.desc}</p>
         <h3 className={styles.choose}>Choose the size</h3>
         <div className={styles.sizes}>
