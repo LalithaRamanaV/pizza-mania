@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 This is a fullstack food ordering application created using Nextjs,Mongodb.
 
 ## Demo
-![Demo]()
+![Demo](pizza.gif)
 ## Technologies used
 * Next.js
 * React
