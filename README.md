@@ -26,6 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 * checkout with details
 * Proceeding orders with stages
 * Edit and delete products
+* Cookie Auth
 * Responsiveness
 
 ## About 
@@ -38,9 +39,10 @@ This is a fullstack food ordering application created using Nextjs,Mongodb.
 * Postman
 * Cloudinary
 * Rest API
-* Redux
-* Paypal
+* Redux Toolkit
+* Paypal Integration
 * Nodejs
+* Cookie Auth
 
 
 
