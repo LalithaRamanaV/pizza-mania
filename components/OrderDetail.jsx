@@ -34,7 +34,7 @@ const OrderDetail = ({ total, createOrder }) => {
           <label className={styles.label}>Address</label>
           <textarea
             rows={5}
-            placeholder="Elton St. 505 India"
+            placeholder="India"
             type="text"
             className={styles.textarea}
             onChange={(e) => setAddress(e.target.value)}
