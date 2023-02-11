@@ -18,7 +18,7 @@ export default function Home({ pizzaList, admin }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured />
-      {<AddButton setClose={setClose} />}
+      {/* {<AddButton setClose={setClose} />} */}
       <PizzaList pizzaList={pizzaList} />
       {!close && <Add setClose={setClose} />}
     </div>
