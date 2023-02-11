@@ -1,7 +1,6 @@
 import axios from "axios";
 import Image from "next/image";
 import { useState } from "react";
-import AddButton from "../../components/AddButton";
 import styles from "../../styles/Admin.module.css";
 
 const Index = ({ orders, products }) => {
@@ -41,7 +40,6 @@ const Index = ({ orders, products }) => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-         {<AddButton setClose={setClose} />} 
         <h1 className={styles.title}>Products</h1>
         <table className={styles.table}>
           <tbody>
