@@ -19,11 +19,12 @@ const Navbar = () => {
      <div className={styles.item}>
       <ul className={styles.list}>
       <Link href="/" passHref>
-        <li className={styles.listItem}>Homepage</li>
+        <li className={styles.listItem}>Home</li>
+        <li className={styles.listItem}>Products</li>
         </Link>
         <Image src="/img/logo4.png" alt=""  width="160px" height="169px" />
+        <li className={styles.listItem}>Blog</li>
         <li className={styles.listItem}>Contact</li>
-        
       </ul>
      </div>
      <Link href="/cart" passHref>
