@@ -48,6 +48,7 @@ const Cart = () => {
           currency: currency,
         },
       });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currency, showSpinner]);
 
     return (
@@ -164,7 +165,7 @@ const Cart = () => {
               >
                 CASH ON DELIVERY
               </button>
-              <PayPalScriptProvider
+              {/* <PayPalScriptProvider
                 options={{
                   "client-id":
                     "AQBpBUGYf536ohBHsoS1tvKYTT-0i8N608sG9ckbQDiXmG82QvogyvEgWfrlxL7qB_4vOf9OwYB5DKIP",
@@ -174,7 +175,7 @@ const Cart = () => {
                 }}
               >
                 <ButtonWrapper currency={currency} showSpinner={false} />
-              </PayPalScriptProvider>
+              </PayPalScriptProvider> */}
             </div>
           ) : (
             <button onClick={() => setOpen(true)} className={styles.button}>
